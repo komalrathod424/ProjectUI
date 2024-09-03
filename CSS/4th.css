@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    width: 80%;
+    min-height: 500px;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #000;
+    background-image: url(/Image/black\ image.jpeg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: 100% 100%;
+    object-fit: fill;
+}
+.main-header-div{
+   
+    width: 100%;
+    min-height: 60px;
+    
+
+}
+.main-header-div .logo{
+   
+    width: 50%;
+    float: left;
+   
+}
+.logo image{
+    width: 40px;
+    max-height: 100%;
+    float: left;
+    height: 60%;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 150px;
+    
+ 
+}
+.menu ul li a{
+    width: 50%;
+    height: 50%;
+    float: right;
+     text-decoration: none;
+     color: white;
+     background-color: aqua;
+     margin: 10px;
+}  

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 300px;
+            height: 200px;
+            border: 1px solid #000;
+            position: relative;
+            margin: 100px auto;
+            animation-name: anni;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: linear;
+        }
+        .box h1{
+            text-align: center;
+            line-height: 200px;
+        }
+
+        @keyframes anni{
+
+            0%{
+                background-color: black;
+                color: white;
+                border-radius: 10%;
+                top: 0;
+                left: 0;
+            }
+            25%{
+                background-color: red;
+                color: white;
+                border-radius: 20%;
+                top: 0;
+                left: 300px;
+
+            }
+
+            50%{
+                 background-color: blue;
+                 color: white;
+                 border-radius: 30%;
+                 top: 300px;
+                 left: 300px;
+            }
+
+            75%{
+                background-color: chartreuse;
+                color:white ;
+                border-radius: 40%;
+                top: 300px;
+                left: 0;
+
+            }
+
+            100%{
+                background-color: white;
+                color: black;
+                border-radius: 50%;
+                top: 0;
+                left: 0;
+
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>KOMAL RATHOD</h1>
+    </div>
+</body>
+</html>

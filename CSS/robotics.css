@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-content p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+.technology-news, .future-of-work, .robots-ces {
+    margin-bottom: 40px;
+}
+
+.technology-news h2, .future-of-work h2, .robots-ces h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.human-robot {
+    display: flex;
+    align-items: center;
+}
+
+.human-robot img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.human-robot .text-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.work-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-content img {
+    width: 23%;
+    border-radius: 10px;
+}
+
+.ces-content {
+    display: flex;
+    align-items: center;
+}
+
+.ces-content img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.ces-text p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

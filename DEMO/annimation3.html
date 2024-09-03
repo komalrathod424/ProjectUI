@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 600px;
+            height: 300px;
+            border: 1px solid #000;
+            margin: auto;
+        }
+        .box h1{
+            font-weight: bold;
+            font-size: 60px;
+            font-family: cursive;
+            text-align: center;
+            line-height: 300px;
+            animation-name: komal;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes komal{
+
+            0%{
+                
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-color: yellow;
+                -webkit-text-stroke-width: 1px;
+
+            }
+
+            25%{
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-color: brown;
+                -webkit-text-stroke-width: 1px;
+
+            }
+
+            50%{
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-color: blue;
+                -webkit-text-stroke-width: 1px ;
+
+            }
+
+            75%{
+                -webkit-text-fill-color:transparent ;
+                -webkit-text-stroke-color:greenyellow ;
+                -webkit-text-stroke-width:1px ;
+
+            }
+            100%{
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke-color:palevioletred ;
+                -webkit-text-stroke-width:1px ;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Komal Rathod</h1>
+    </div>
+</body>
+</html>
